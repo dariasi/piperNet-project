@@ -1,0 +1,291 @@
+body,
+h1 {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1219px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+body {
+  font-family: "Roboto", "Helvetica Nue", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #000;
+}
+
+/* Header styles start */
+
+.header {
+  background: #007765;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header_logo {
+  vertical-align: middle;
+  top: 50%;
+  margin: auto 0 auto;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header_list li {
+  display: inline-block;
+}
+
+.header_list li:after {
+  content: "|";
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header_list li:last-child:after {
+  content: none;
+}
+
+.header_item {
+  margin-right: 29px;
+}
+
+.no_header_item {
+  margin-right: 0px;
+}
+
+.header_link {
+  position: relative;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0 25px 0 1px;
+  color: #fff;
+}
+
+.no_header_link {
+  margin: 0 0px 0 1px;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+  opacity: 0.75;
+}
+
+/* Header styles end */
+
+/* Intro styles start */
+
+.intro {
+  margin: 84px auto;
+  background: url(./img/intro-bg.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 201px;
+  padding-bottom: 201px;
+  margin-bottom: 0;
+}
+
+.intro_title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Intro styles end */
+
+/* Second block styles start */
+
+.second_block {
+  width: 100vw;
+  height: 719px;
+  left: 0px;
+  top: 487px;
+  background: #eeeeee;
+}
+
+.second_block_title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 88px;
+  padding-bottom: 16px;
+}
+
+.second_block_text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37, 5px;
+  text-align: left;
+  color: #000000;
+}
+
+/* Second block styles end */
+
+/* Third block styles start */
+
+.third_block {
+  background: url(./img/image2.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.third_block_text {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  max-width: 833px;
+}
+
+/* Third block styles end */
+
+/* Four block styles start */
+
+.four_block {
+  width: 100vw;
+  height: 650px;
+  top: 487px;
+  background: #ffffff;
+}
+
+.four_block_title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 100px;
+}
+
+.four_block_text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37, 5px;
+  text-align: left;
+  color: #000000;
+}
+
+.image_four_block {
+  vertical-align: middle;
+  top: 50%;
+  margin: auto 0 auto;
+}
+
+.pic {
+  float: left;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+/* Four block styles end */
+
+/* Five block styles start */
+
+.five_block {
+  width: 100vw;
+  height: 840px;
+  left: 0px;
+  top: 487px;
+  background: #eeeeee;
+}
+
+.five_block_title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 88px;
+  padding-bottom: 36px;
+}
+
+.card_person {
+  width: 406px;
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 45px;
+  box-sizing: border-box;
+  padding-bottom: 0;
+}
+
+.margin_bottom_card {
+  margin-bottom: 100px;
+}
+.image_person {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person_title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #007765;
+  text-align: center;
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+
+.person_text {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+/* Five block styles end */
+
+/* Footer start */
+
+.footer {
+  height: 230px;
+  background-color: #333333;
+  display: flex;
+}
+
+.footer-author {
+  color: #fff;
+  font-size: 18px;
+  margin: auto;
+  font-weight: normal;
+  line-height: 21px;
+  text-align: center;
+  max-width: 550px;
+}
+
+/* Footer end*/
